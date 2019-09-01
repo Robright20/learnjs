@@ -1,0 +1,33 @@
+Numbers & variables
+
+with or without decimals, exponentiation, one type
+
+64-bit floating point, double precision floating point numbers,
+IEEE 754 standard...
+0-51(value/fraction/mantissa)	52-62(exponent)		63(sign)
+
+precision
+up to 15 digits without a period or ...
+17 decimals and low accuracy
+always ensure about the precision you want to use to avoid sides effects
+0.1 + 0.2 != 0.3
+0.1 * 10 + 0.2 * 10 == 0.3
+
+adding numbers and strings
++ both adds and concat
+number + number, s + s, n + s, s + n
+interpreter works from left to right
+s + n + n != s + (n + n)
+n + n + s != n + n + s
+numeric strings, js can deal with numbers in "" when operators are different
+from '+'
+NaN(Not a legal number) computation with non-numeric operands
+x = n / s => NaN
+isNaN();
+NaN type = number
+Infinity type = number
+Hexadecimal var x = 0xFF
+07 type is octal avoid 0 in front
+toString(); change base
+numbers as object using new Number();
+== vs ===
