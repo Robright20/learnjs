@@ -1,0 +1,38 @@
+Javascript Arithmetic
+
+exponentiation
+10 ** 2
+shift left/ right >> <<
+shift unsigned
+instanceof
+PI
+bitwise AND XOR OR
+condition ? "Yes" : "No"
+parentheses fully computed before it is used
+
+MDN math in js
+Types of numbers
+intergers, floating point numbers, doubles, binary, octal, hexadecimal.
+
+operators
++ converts non-numeric into numbers
+() override precedence
+unary operators have precedence on all oders
+comma (,) evaluate the first part and return the last
+
+variables
+var, let, const
+
+multiline style
+let user = 'john'
+  , age = 25
+  , message = 'Hello';
+
+camelCase
+$, _
+- not allowed
+use strict: to merely assign for declaration
+capital constants(alias) vs normal ones
+
+we use capital when the value is "hard-coded"
+normal in all orther case
