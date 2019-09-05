@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Js build in methods</title>
+</head>
+<body>
+	<p>I can eat bananas all day</p>
+	<button>slice</button>
+</body>
+<script type="text/javascript">
+	const button = document.querySelector('button');
+
+	button.onclick = function() {
+		let txt = document.querySelector('p');
+		txt.innerText = txt.innerText.slice(10, 17);
+	}
+</script>
+</html>

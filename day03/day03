@@ -1,0 +1,21 @@
+Data types
+__________
+
+Dynamically typed => a variable at one moment can be a string and at another
+be a number.
+there are data types but variables are not bound to any of them.
+
+Numbers int or floating-point
+string (double quote, single quote, backticks)
+boolean
+null (nothing, empty, value unknown)
+object
+symbol (unique identifiers)
+unidifined
+
+mdn
+
+single quotes vs double quotes
+no differences, if you choose one to represent strings you should stick on it
+
+Number(), toString(), mdn contains a list of strings methods
