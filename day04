@@ -1,0 +1,10 @@
+Logical Operators
+
+
+OR ||
+
+- evaluates operands from left to right
+- convert each operands to boolean
+- return the truthy value or the last one if 
+	no truthy value where found
+
